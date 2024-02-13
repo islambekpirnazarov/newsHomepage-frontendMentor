@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <div class="navigation-brand">
+          <img src="assets/images/logo.svg" alt="logo">
+        </div>
+        <ul class="navigation-menu">
+          <li class="navigation-menu__item">
+            <a href="#news" class="navigation-item__link">Home</a>
+          </li>
+          <li class="navigation-menu__item">
+            <a href="#new" class="navigation-item__link">New</a>
+          </li>
+          <li class="navigation-menu__item">
+            <a href="#about" class="navigation-item__link">Popular</a>
+          </li>
+          <li class="navigation-menu__item">
+            <a href="#" class="navigation-item__link">Trending</a>
+          </li>
+          <li class="navigation-menu__item">
+            <a href="#" class="navigation-item__link">Categories</a>
+          </li>
+        </ul>
+        <div class="menuBtn">
+          
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+  <section id="news" class="news">
+      <div class="news-image">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="web image" class="desktop-img">
+        <img src="assets/images/image-web-3-mobile.jpg" alt="web image" class="mobile-img">
+        <div class="news-flexbox">
+          <div class="flexbox-item">
+            <h1 class="news-flexbox__title">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="flexbox-item">
+            <p class="news-flexbox__info">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+            </p>
+            <button class="button">read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="news-description" id="new">
+        <h2 class="news-title">New</h2>
+        <h3 class="news-description__title">Hydrogen VS Electric Cars</h3>
+        <p class="news-description__info">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <span class="horizontal"></span>
+        <h3 class="news-description__title">The Downsides of AI Artistry</h3>
+        <p class="news-description__info">What are the possible adverse effects of on-demand AI image generation?</p>
+        <span class="horizontal"></span>
+        <h3 class="news-description__title">Is VC Funding Drying Up?</h3>
+        <p class="news-description__info">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </div>
+  </section>
+  </div>
+  <div class="container">
+    <section class="about" id="about">
+      <div class="about-item">
+        <img src="assets/images/image-retro-pcs.jpg" alt="retro pc" class="about-item__flex">
+        <div class="about-item__flex">
+          <div class="about-item__number">01</div>
+          <div class="about-item__title">Reviving Retro PCs</div>
+          <div class="about-item__info">What happens when old PCs are given modern upgrades?</div>
+        </div>
+      </div>
+      <div class="about-item">
+        <img src="assets/images/image-top-laptops.jpg" alt="retro pc" class="about-item__flex">
+        <div class="about-item__flex">
+          <div class="about-item__number">02</div>
+          <div class="about-item__title">Top 10 Laptops of 2022</div>
+          <div class="about-item__info">Our best picks for various needs and budgets.</div>
+        </div>
+      </div>
+      <div class="about-item">
+        <img src="assets/images/image-gaming-growth.jpg" alt="retro pc" class="about-item__flex">
+        <div class="about-item__flex">
+          <div class="about-item__number">03</div>
+          <div class="about-item__title">The Growth of Gaming</div>
+          <div class="about-item__info">How the pandemic has sparked fresh opportunities.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
